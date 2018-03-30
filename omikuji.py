@@ -1,4 +1,5 @@
 import random
+
 omikuji = random.randint(1,6)
 if omikuji == 1:
     print("大吉")
