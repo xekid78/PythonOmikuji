@@ -2,11 +2,12 @@
 おみくじ
 
 ## 処理
-randint()メソッドを使用して1 ～ 6のランダムな数字を使って、おみくじの結果を出力します。
+`randint()`メソッドを使用して1 ～ 6のランダムな数字を使って、おみくじの結果を出力します。
 
 ## コード
 ```
 import random
+
 omikuji = random.randint(1,6)
 if omikuji == 1:
     print("大吉")
